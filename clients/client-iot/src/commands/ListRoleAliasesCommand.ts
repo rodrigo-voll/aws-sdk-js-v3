@@ -14,7 +14,7 @@ import { HttpRequest as __HttpRequest, HttpResponse as __HttpResponse } from "@s
 import { SerdeContext as __SerdeContext } from "@smithy/types";
 
 import { IoTClientResolvedConfig, ServiceInputTypes, ServiceOutputTypes } from "../IoTClient";
-import { ListRoleAliasesRequest, ListRoleAliasesResponse } from "../models/models_1";
+import { ListRoleAliasesRequest, ListRoleAliasesResponse } from "../models/models_2";
 import { de_ListRoleAliasesCommand, se_ListRoleAliasesCommand } from "../protocols/Aws_restJson1";
 
 /**

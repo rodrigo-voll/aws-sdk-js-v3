@@ -70,8 +70,11 @@ export interface UpdateExportCommandOutput extends UpdateExportResponse, __Metad
  * //       botVersion: "STRING_VALUE", // required
  * //       localeId: "STRING_VALUE", // required
  * //     },
+ * //     testSetExportSpecification: { // TestSetExportSpecification
+ * //       testSetId: "STRING_VALUE", // required
+ * //     },
  * //   },
- * //   fileFormat: "LexJson" || "TSV",
+ * //   fileFormat: "LexJson" || "TSV" || "CSV",
  * //   exportStatus: "InProgress" || "Completed" || "Failed" || "Deleting",
  * //   creationDateTime: new Date("TIMESTAMP"),
  * //   lastUpdatedDateTime: new Date("TIMESTAMP"),

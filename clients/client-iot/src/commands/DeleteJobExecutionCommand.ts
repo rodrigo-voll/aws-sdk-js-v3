@@ -14,7 +14,7 @@ import { HttpRequest as __HttpRequest, HttpResponse as __HttpResponse } from "@s
 import { SerdeContext as __SerdeContext } from "@smithy/types";
 
 import { IoTClientResolvedConfig, ServiceInputTypes, ServiceOutputTypes } from "../IoTClient";
-import { DeleteJobExecutionRequest } from "../models/models_0";
+import { DeleteJobExecutionRequest } from "../models/models_1";
 import { de_DeleteJobExecutionCommand, se_DeleteJobExecutionCommand } from "../protocols/Aws_restJson1";
 
 /**

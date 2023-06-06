@@ -14,7 +14,7 @@ import { HttpRequest as __HttpRequest, HttpResponse as __HttpResponse } from "@s
 import { SerdeContext as __SerdeContext } from "@smithy/types";
 
 import { LexModelsV2ClientResolvedConfig, ServiceInputTypes, ServiceOutputTypes } from "../LexModelsV2Client";
-import { ListImportsRequest, ListImportsResponse } from "../models/models_0";
+import { ListImportsRequest, ListImportsResponse } from "../models/models_1";
 import { de_ListImportsCommand, se_ListImportsCommand } from "../protocols/Aws_restJson1";
 
 /**
@@ -78,7 +78,7 @@ export interface ListImportsCommandOutput extends ListImportsResponse, __Metadat
  * //       mergeStrategy: "Overwrite" || "FailOnConflict" || "Append",
  * //       creationDateTime: new Date("TIMESTAMP"),
  * //       lastUpdatedDateTime: new Date("TIMESTAMP"),
- * //       importedResourceType: "Bot" || "BotLocale" || "CustomVocabulary",
+ * //       importedResourceType: "Bot" || "BotLocale" || "CustomVocabulary" || "TestSet",
  * //     },
  * //   ],
  * //   nextToken: "STRING_VALUE",
